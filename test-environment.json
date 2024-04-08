@@ -1,0 +1,6 @@
+{
+        "NAME": "Project TEST",
+        "APP_NAME": "My Project",
+        "PORT": 5001,
+        "NODE_ENV": "development"
+    }

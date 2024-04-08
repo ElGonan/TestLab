@@ -1,0 +1,25 @@
+{
+  "name": "testlab",
+  "version": "1.0.0",
+  "description": "Lab aobut automatized testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mochawesome --timeout 10000 --exit",
+    "testFull": "nyc --reporter=html --reporter=text mocha --reporter mochawesome --timeout 10000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XxGonanxX/TestLab"
+  },
+  "author": "XxGonanxX",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.0.0",
+    "chai-http": "^4.4.0",
+    "express": "^4.19.2",
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3",
+    "nyc": "^15.1.0",
+    "sinon": "^17.0.1"
+  }
+}

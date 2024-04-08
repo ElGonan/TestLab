@@ -1,0 +1,19 @@
+{
+        "apps" : [{
+        "name" : "Project PROD",
+        "script" : "index.js",
+        "watch": ["cloud","functions","index.js","controllers","models","1_global_module"],
+        "watch_options": {
+            "useFsEvents": false
+        },
+    
+        "ignore_watch" : ["public/", "node_modules/", "logs"],
+    
+        "env": {
+            "NAME": "Project PROD",
+            "APP_NAME": "Project PROD",
+            "PORT": 5005,
+            "NODE_ENV": "production"
+        }
+        }]
+    }
